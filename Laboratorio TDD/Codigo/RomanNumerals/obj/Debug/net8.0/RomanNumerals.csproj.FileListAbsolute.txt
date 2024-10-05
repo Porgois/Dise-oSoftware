@@ -1,0 +1,12 @@
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\bin\Debug\net8.0\RomanNumerals.deps.json
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\bin\Debug\net8.0\RomanNumerals.dll
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\bin\Debug\net8.0\RomanNumerals.pdb
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\RomanNumerals.csproj.AssemblyReference.cache
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\RomanNumerals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\RomanNumerals.AssemblyInfoInputs.cache
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\RomanNumerals.AssemblyInfo.cs
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\RomanNumerals.csproj.CoreCompileInputs.cache
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\RomanNumerals.dll
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\refint\RomanNumerals.dll
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\RomanNumerals.pdb
+C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals\obj\Debug\net8.0\ref\RomanNumerals.dll
