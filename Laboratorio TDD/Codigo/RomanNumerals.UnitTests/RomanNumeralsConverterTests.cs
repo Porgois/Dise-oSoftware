@@ -10,7 +10,7 @@ public class RomanNumeralsConverterTests
 
     [Test]
     public void Convert_WhenNumber1IsPassed_ReturnsI() {
-        var result = RomanNumeralsConverter.Convert(1);
-        result.Should().Be("I");
+        var result = RomanNumeralsConverter.Translate(3);
+        result.Should().Be("III");
     }
 }

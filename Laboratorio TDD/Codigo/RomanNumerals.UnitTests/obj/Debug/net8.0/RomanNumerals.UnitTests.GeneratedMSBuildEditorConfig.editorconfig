@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RomanNumerals.UnitTests
-build_property.ProjectDir = C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Laboratorios\Laboratorio TDD\Codigo\RomanNumerals.UnitTests\
+build_property.ProjectDir = C:\Users\Isaac\Documents\Universidad\2024\II\Diseno Software\Repositorio\Dise-oSoftware\Laboratorio TDD\Codigo\RomanNumerals.UnitTests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

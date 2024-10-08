@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj": {}
+    "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj": {
+    "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj",
         "projectName": "RomanNumerals.UnitTests",
-        "projectPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj",
+        "projectPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj",
         "packagesPath": "C:\\Users\\Isaac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Isaac\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj": {
-                "projectPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj"
+              "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj": {
+                "projectPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj": {
+    "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj",
+        "projectUniqueName": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj",
         "projectName": "RomanNumerals",
-        "projectPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj",
+        "projectPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals\\RomanNumerals.csproj",
         "packagesPath": "C:\\Users\\Isaac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals\\obj\\",
+        "outputPath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Isaac\\AppData\\Roaming\\NuGet\\NuGet.Config"

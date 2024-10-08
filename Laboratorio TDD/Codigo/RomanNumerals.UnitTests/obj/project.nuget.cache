@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eIjNldXTY3o=",
+  "dgSpecHash": "RbFTciiE00g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Laboratorios\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Isaac\\Documents\\Universidad\\2024\\II\\Diseno Software\\Repositorio\\Dise-oSoftware\\Laboratorio TDD\\Codigo\\RomanNumerals.UnitTests\\RomanNumerals.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Isaac\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Isaac\\.nuget\\packages\\fluentassertions\\6.12.1\\fluentassertions.6.12.1.nupkg.sha512",
