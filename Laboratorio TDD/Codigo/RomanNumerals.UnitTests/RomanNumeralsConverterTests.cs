@@ -23,6 +23,7 @@ public class RomanNumeralsConverterTests
     [TestCase(14, "XIV")]
     [TestCase(15, "XV")]
     [TestCase(20, "XX")]
+    [TestCase(29, "XXIX")]
     [TestCase(30, "XXX")]
     [TestCase(40, "XL")]
     [TestCase(50, "L")]
@@ -31,6 +32,8 @@ public class RomanNumeralsConverterTests
     [TestCase(80, "LXXX")]
     [TestCase(90, "XC")]
     [TestCase(100, "C")]
+    [TestCase(294, "CCXCIV")]
+    [TestCase(2019, "MMXIX")]
 
     public void Convert_WhenArabicNumberIsPassed_ReturnsRomanNumber(int numberArabic, string numberRoman)
     {

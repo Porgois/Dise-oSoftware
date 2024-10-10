@@ -32,7 +32,7 @@ public class RomanNumeralsConverter
             } 
             else if (current_number == 4)
             {
-                result += roman_characters[value_offset] + roman_characters[value_offset + 1];
+                result = roman_characters[value_offset] + roman_characters[value_offset + 1] + result;
             }
             else if (current_number < 9)
             {
@@ -40,7 +40,7 @@ public class RomanNumeralsConverter
             } 
             else
             {
-                result += roman_characters[value_offset] + roman_characters[value_offset + 2];
+                result = roman_characters[value_offset] + roman_characters[value_offset + 2] + result;
             }
             value_offset += 2;
         }
