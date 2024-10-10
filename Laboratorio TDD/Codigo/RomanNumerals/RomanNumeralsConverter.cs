@@ -2,6 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using Microsoft.VisualBasic;
 
 namespace RomanNumerals;
@@ -9,7 +10,8 @@ namespace RomanNumerals;
 
 public class RomanNumeralsConverter
 {
-    public static string Translate(int a) {
+    public static string Translate(int a)
+    {
         List<string> roman_characters = ["I", "V", "X", "L", "C", "D", "M"];
         
         string result = "";
@@ -20,39 +22,26 @@ public class RomanNumeralsConverter
         int current_number;
         int value_offset = 0;
 
-        for (int i = length - 1; i >= 0; i--) {
+        for (int i = length - 1; i >= 0; i--)
+        {
             current_number = Convert.ToInt32(number_string[i].ToString());
 
-            if (current_number < 4) {
-                result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number));
-            } else if (current_number == 4) {
-                result += roman_characters[value_offset];
-                result += roman_characters[value_offset + 1];
+            if (current_number < 4)
+            {
+                result = string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number)) + result;
+            } 
+            else if (current_number == 4)
+            {
+                result += roman_characters[value_offset] + roman_characters[value_offset + 1];
             }
-            // switch (current_number) {
-            //     case 1:
-            //     case 2:
-            //     case 3:
-            //         result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number));
-            //         break;
-            //     case 4:
-            //         result += roman_characters[value_offset];
-            //         result += roman_characters[value_offset + 1];
-            //         break;
-            //     case 5:
-            //         result += roman_characters[value_offset + 1];
-            //         break;
-            //     case 6:
-            //     case 7:
-            //     case 8:
-            //         result += roman_characters[value_offset + 1];
-            //         result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number - 5));
-            //         break;
-            //     case 9:
-            //         result += roman_characters[value_offset];
-            //         result += roman_characters[value_offset + 2];
-            //         break;
-            // }
+            else if (current_number < 9)
+            {
+                result = roman_characters[value_offset + 1] + String.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number - 5)) + result;
+            } 
+            else
+            {
+                result += roman_characters[value_offset] + roman_characters[value_offset + 2];
+            }
             value_offset += 2;
         }
         return result;
