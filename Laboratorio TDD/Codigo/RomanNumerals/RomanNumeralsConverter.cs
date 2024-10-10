@@ -23,31 +23,37 @@ public class RomanNumeralsConverter
         for (int i = length - 1; i >= 0; i--) {
             current_number = Convert.ToInt32(number_string[i].ToString());
 
-            switch (current_number)
-            {
-                case 1:
-                case 2:
-                case 3:
-                    result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number));
-                    break;
-                case 4:
-                    result += roman_characters[value_offset];
-                    result += roman_characters[value_offset + 1];
-                    break;
-                case 5:
-                    result += roman_characters[value_offset + 1];
-                    break;
-                case 6:
-                case 7:
-                case 8:
-                    result += roman_characters[value_offset + 1];
-                    result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number - 5));
-                    break;
-                case 9:
-                    result += roman_characters[value_offset];
-                    result += roman_characters[value_offset + 2];
-                    break;
+
+            if (current_number < 4) {
+                result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number));
+            } else if (current_number == 4) {
+                result += roman_characters[value_offset];
+                result += roman_characters[value_offset + 1];
             }
+            // switch (current_number) {
+            //     case 1:
+            //     case 2:
+            //     case 3:
+            //         result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number));
+            //         break;
+            //     case 4:
+            //         result += roman_characters[value_offset];
+            //         result += roman_characters[value_offset + 1];
+            //         break;
+            //     case 5:
+            //         result += roman_characters[value_offset + 1];
+            //         break;
+            //     case 6:
+            //     case 7:
+            //     case 8:
+            //         result += roman_characters[value_offset + 1];
+            //         result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number - 5));
+            //         break;
+            //     case 9:
+            //         result += roman_characters[value_offset];
+            //         result += roman_characters[value_offset + 2];
+            //         break;
+            // }
             value_offset += 2;
         }
         return result;
