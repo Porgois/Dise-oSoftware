@@ -23,7 +23,6 @@ public class RomanNumeralsConverter
         for (int i = length - 1; i >= 0; i--) {
             current_number = Convert.ToInt32(number_string[i].ToString());
 
-
             if (current_number < 4) {
                 result += string.Concat(Enumerable.Repeat(roman_characters[value_offset], current_number));
             } else if (current_number == 4) {
